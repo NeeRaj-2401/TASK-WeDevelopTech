@@ -1,0 +1,50 @@
+======== TASK For UI Developer Job ============
+
+** Specifications **
+
+- Technology to be used: HTML and CSS
+- Web Page Layout: Responsive design All 3 View as shown in the 3 Image File
+- Web Page Design: Refer to following image files
+	- 1. Desktop-View.jpg file for Desktop View
+	- 2. tablet-view.jpg file for Tablet View
+	- 3. mobile-view.jpg file for Mobile View
+
+Fonts to be used: Roboto [Regular and bold] (Files Provided)
+Images and icons: Refer to "images" folder
+
+Colors: 
+Black: #080808
+Orange: #e58d41
+
+
+** Instructions **
+
+General
+- UI Quality is very important to us, and we expect the same from our team. So, all the instructions are to be strictly followed and your task would be validated accordingly
+- Quality of code would be checked. Clean and neat code would be appreciated
+- You are not allowed to use any other font or images or colors other than the ones provided
+- Do not use any kind of libraries like Bootstrap etc.
+
+Layout:
+- It has to be responsive layout with at least 3 views as shown in the design files
+- Scaling as to be disabled with viewport set to 1
+- Things to consider: Header, Main Container, Footer
+
+Container:
+- Define proper page container with 2% left and right padding
+- Maximum container size would be 1280px, center aligned
+
+Images:
+- Images provided are of high resolutions. Optimize images for web view before using.
+
+Spacing:
+- Use proper margins / paddings wherever applicable as shown in the design
+
+For textual write-up
+- Refer to https://www.lipsum.com/
+
+References
+- We promote learning and do not mind the use of web search to perform the task. Feel free to do so.
+- But, any kind of copy paste would not be tolerated
+
+Good Luck!
