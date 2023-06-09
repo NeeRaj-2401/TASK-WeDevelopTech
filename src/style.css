@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'Roboto Bold';
+    src: url('../fonts/Roboto-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto Medium';
+    src: url('../fonts/Roboto-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto Regular';
+    src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+
+
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: 'Roboto Regular', sans-serif;
+    color: #080808;
+}
+
+/* Page container */
+.container {
+    padding: 0 2%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo {
+    max-width: 200px; /* Set the maximum width for the logo */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Navbar */
+.navbar {
+    border-top: 2px solid #080808;
+    border-bottom: 2px solid #080808;
+    padding: 10px 0;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 0 100px;
+}
+
+/* .navbar li {
+    margin: 0 100px;
+} */
+
+.navbar a {
+    color: #080808;
+    text-decoration: none;
+    font-size: "Roboto Bold";
+}
+
+.navbar a:hover {
+    color: #e58d41;
+}
+
+/* Hero section */
+.hero {
+    text-align: center;
+    margin-top: 40px;
+    /* Add margin to the top of the hero section */
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.image-container {
+    margin: 0 auto;
+    /* Center the image container horizontally */
+}
+
+/* Main container */
+.main-container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.content-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.content-container p {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.content-container img {
+    flex: 1;
+    max-width: 300px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.read-more {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #e58d41;
+    color: #080808;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 10px;
+}
+
+.footer p {
+    color: #080808;
+}
