@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'Roboto Bold';
-    src: url('../fonts/Roboto-Bold.ttf') format('truetype');
+    src: url('./fonts/Roboto-Bold.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Roboto Medium';
-    src: url('../fonts/Roboto-Medium.ttf') format('truetype');
+    src: url('./fonts/Roboto-Medium.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Roboto Regular';
-    src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+    src: url('./fonts/Roboto-Regular.ttf') format('truetype');
 }
 
 /* Reset default browser styles */
@@ -131,24 +131,17 @@ body::-webkit-scrollbar {
 }
 
 .content-container {
-    display: flex;
-    align-items: flex-start;
     margin-bottom: 2.5rem;
 }
 
-.article-image {
-    flex: 1;
+.content-container img {
+    float: right;
     max-width: 18.75rem;
     height: auto;
-    margin-right: 1.25rem;
+    margin-left: 1.25rem;
+    margin-bottom: 1.25rem;
 }
-
-.article-content {
-    flex: 2;
-    margin-top: 1rem;
-}
-
-.article-content p {
+.content-container p {
     margin-bottom: 1.25rem;
     font-size: 1rem;
     text-align: justify;
@@ -288,19 +281,11 @@ button {
     }
 
     /* main container */
-
-    .content-container {
-        flex-direction: column;
-    }
-
     .container-headings {
         font-size: 2.5rem;
     }
-
-    .article-image {
-        margin-right: 0;
-        margin-bottom: 1.25rem;
-        max-width: 100%;
+    .content-container img{
+        max-width: 16rem;
     }
 
     .images-container {
@@ -351,7 +336,7 @@ button {
     }
 
     .content-container img {
-        max-width: 100%;
+        max-width: 12rem;
     }
 
     .images-container {
@@ -362,8 +347,8 @@ button {
 
     .circular-image {
         margin: 0.5rem 1rem;
-        width: 10rem;
-        height: 10rem;
+        width: 9.7rem;
+        height: 9.7rem;
     }
 
     .main-images-container {
