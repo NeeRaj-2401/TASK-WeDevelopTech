@@ -20,15 +20,36 @@
     box-sizing: border-box;
 }
 
+/* Animations styling */
+.container {
+    opacity: 0;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    animation-name: slideFromLeft;
+    transform: translateX(-100%);
+}
+
+@keyframes slideFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
 /* Global styles */
 body {
     font-family: 'Roboto Regular', sans-serif;
     color: #080808;
     font-size: 62.5%;
 }
+
 body::-webkit-scrollbar {
     display: none;
-  }
+}
 
 /* Page container */
 .container {
@@ -141,6 +162,7 @@ body::-webkit-scrollbar {
     margin-left: 1.25rem;
     margin-bottom: 1.25rem;
 }
+
 .content-container p {
     margin-bottom: 1.25rem;
     font-size: 1rem;
@@ -202,7 +224,8 @@ button {
     content: "";
     position: absolute;
     top: -1px;
-    left: calc(-50vw + 50%); /*vw is screen width and % is parent "container" width(1280)*/
+    left: calc(-50vw + 50%);
+    /*vw is screen width and % is parent "container" width(1280)*/
     width: 100vw;
     /* Set width to 100% of the viewport width */
     height: 2px;
@@ -284,7 +307,8 @@ button {
     .container-headings {
         font-size: 2.5rem;
     }
-    .content-container img{
+
+    .content-container img {
         max-width: 16rem;
     }
 
